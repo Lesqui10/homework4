@@ -10,7 +10,7 @@
 
     const emit = defineEmits(['transactionDeleted'])
 
-    constdeleteTransaction = (id) => {
+    const deleteTransaction = (id) => {
         emit('transactionDeleted', id)
     }
 
